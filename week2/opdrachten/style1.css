@@ -1,0 +1,165 @@
+body {
+    background-color: #e9e9e9;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.page-container {
+    max-width: 800px;
+}
+
+
+.achtergrond-licht {
+    background-color: #e9e9e9;
+    padding: 45px 0;
+}
+
+.achtergrond-donker {
+    background-color: #aaa;
+    padding: 45px 0;
+}
+
+
+h2 {
+    font-family: monospace;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+
+.achtergrond-wit {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+
+.tabel-container {
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 4px rgba(50, 40, 40, 0.1);
+}
+
+
+.tabel-container table {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+
+.tabel-container th,
+.tabel-container td {
+    padding: 8px;
+    text-align: left;
+}
+
+
+.tabel-container th {
+    font-weight: bold;
+}
+
+
+.tabel-container a {
+    color: purple;
+    text-decoration: underline;
+}
+
+
+.list_container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 4px rgba(50, 40, 40, 0.1);
+}
+
+.article_container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 4px rgba(50, 40, 40, 0.1);
+}
+
+.article_container p:last-child {
+    margin-bottom: 0;
+}
+
+
+.image-container {
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 4px rgba(50, 40, 40, 0.1);
+}
+
+
+.image-container img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+}
+
+
+.product-info-container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 4px rgba(50, 40, 40, 0.1);
+}
+
+
+.product-info-container h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.service_container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 4px rgba(50, 40, 40, 0.1);
+    height: 100%;
+}
+
+
+.service_container h3 {
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.service_container p {
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 767px) {
+
+    .achtergrond-licht,
+    .achtergrond-donker {
+        padding: 30px 0;
+    }
+
+    .page-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+}
